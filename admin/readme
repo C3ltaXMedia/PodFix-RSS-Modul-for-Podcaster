@@ -1,0 +1,102 @@
+Der PodfixRSS Feedgenerator
+--------------------------------------
+
+Mit PodfixRSS ist es möglich, einen Podcast ohne Webblog zu betreiben. 
+Ein Website unabhängig zu betreiben ist das Ziel von PodfixRSS. 
+Mit einer Webaplikation kannst du dich als Administrator anmelden 
+um neue Episoden hinzu zu fügen.
+
+
+Wie geht man denn da vor ?
+---------------------------------
+
+ 1.) 	Melde dich bei Podfix an und vergebe im Editor einen Namen für deine neue Episode. 
+	Schreibe ein Zeilen. 
+
+ 2.) 	Lade deine MP3 Datei hoch und Klicke auf Speichern. 
+
+ 3.) 	Das war's :) 
+	Dein Feed ist nun erstellt! 
+	Du kann diesen in deine Webseite einbinden oder an iTunes senden.
+
+
+Warum PodfixRSS ?
+---------------------------------
+
+Wer ein Podcast simpel und einfach erzeugen will ohne den Stress 
+von WordPress oder der gleichen zu nutzen, kann dies mit PodfixxRSS sehr einfach tun. 
+PodfixRSS erzeugt nur einen Podcastfeed, es wird kein Blog benötigt. 
+Und das interessante dran, du bist nicht auf eine feste Umgebung gebunden. 
+Du kannst den Feed in deine Homepage einbinden oder iTunes mit diesem Feed bestücken.
+
+
+Wird PodfixRSS frei zum Download ?
+----------------------------------
+
+Ja, zur Zeit ist PodfixRSS noch in der Entwicklung!
+Wenn die erste Version zur Verfügung steht, kannst du diese hier herunterladen!
+
+
+Versionen
+----------------------------------
+
+ 1.) RSS Feed XML 2.0 ( Version 0.0.3 )
+
+ 2.) Websystem Admin ( Version 0.1.5 )
+
+
+
+###################################### INSTALLATION - PodfixRSS V.0.1a #####################################
+
+
+ 1.) Erstelle eine Datenbank mit PMA (phpMyAdmin) 
+	
+	/a/ Importiere die beiligende "rss-test.sql"
+	    #
+	    # Es wird nun eine Datenbank angelegt, mit Namen: (podfix_rss) 
+	    #
+	    # Diese enthält die Tabellen (login) und (rss)
+
+
+	/b/ Gehe in die Datenbank (login) und bearbeite deinen Benutzernamen
+	    #
+	    # Dein Benutzername kann klein, wie auch groß geschreiben werden!
+
+
+	/c/ Gehe in die Datenbank (login) und bearbeite dein Passwort
+	    #
+	    # Achtung!!! - Dein Passwort muss zwingend in __md5__ Verschlüsselt sein!
+	    #
+	    # Du findest einen umrechner unter z.B.: => http://files.kniebes.net/php/md5/
+
+
+
+ 2.) gehe in den Ordner (RSS/-/inc/) und öffne die Datei "db.inc.php" mit einem Editor
+	
+	/a/ Gebe dort den Host, Datenbanknamen, Benutzer und dein Pwasswort ein.
+
+
+
+ 3.) gehe in den Ordner (RSS/-/inc/) und öffne die Datei "install.php" mit einem Editor
+	
+	/a/ Gebe dort die Daten deines Podcast Feeds ein.
+
+
+
+ 4.) Melde dich mit deinem Benutzername und Passwort an.
+	
+	/a/ Die Anmeldung findest du unter: http://<domainname.dlt>/RSS/admin/login
+
+
+
+
+
+
+
+
+
+
+
+
+
+
